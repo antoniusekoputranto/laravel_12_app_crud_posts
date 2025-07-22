@@ -38,8 +38,9 @@ Follow these steps to install and run the application locally:
     php artisan serve
 
 ## Usage
-    * Access the app via http://localhost:8000
-    * Use the interface to create, edit, and delete blog posts
+
+* Access the app via http://localhost:8000
+* Use the interface to create, edit, and delete blog posts
 
 ## Contributing
 
