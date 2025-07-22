@@ -39,7 +39,7 @@ Follow these steps to install and run the application locally:
 
 ## Usage
     * Access the app via http://localhost:8000
-    *Use the interface to create, edit, and delete blog posts
+    * Use the interface to create, edit, and delete blog posts
 
 ## Contributing
 
