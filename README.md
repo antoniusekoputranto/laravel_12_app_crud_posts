@@ -22,25 +22,35 @@ Follow these steps to install and run the application locally:
    ```
 
 2. Install dependencies:
+    ```bash
     composer install
     npm install && npm run dev
+    ```
 
 3. Copy .env.example to .env and configure your database:
+    ```bash
     cp .env.example .env
+    ```
 
 4. Generate application key:
+    ```bash
     php artisan key:generate
+    ```
 
 5. Run migrations:
+    ```bash
     php artisan migrate
+    ```
 
 6. Start the development server:
+    ```bash
     php artisan serve
+    ```
 
 ## Usage
 
-* Access the app via http://localhost:8000
-* Use the interface to create, edit, and delete blog posts
+- Access the app via http://localhost:8000
+- Use the interface to create, edit, and delete blog posts
 
 ## Contributing
 
