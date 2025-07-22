@@ -1,3 +1,5 @@
+# English
+
 # Laravel 12 CRUD Posts Application
 
 This repository contains a Laravel 12 application that demonstrates basic CRUD (Create, Read, Update, Delete) operations for managing blog posts. It serves as a practical example for developers learning Laravel and building web applications with structured data handling.
@@ -59,3 +61,67 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is open-source and available under the MIT License.
+
+# Indonesia
+
+# Aplikasi CRUD Postingan Laravel 12
+
+Repositori ini berisi aplikasi Laravel 12 yang mendemonstrasikan operasi dasar CRUD (Create, Read, Update, Delete) untuk mengelola postingan blog. Aplikasi ini berfungsi sebagai contoh praktis bagi para pengembang yang sedang mempelajari Laravel dan membangun aplikasi web dengan penanganan data yang terstruktur.
+
+## Fitur
+
+- Membuat postingan blog baru
+- Melihat daftar semua postingan
+- Mengedit postingan yang sudah ada
+- Menghapus postingan
+- Antarmuka responsif menggunakan template Blade
+- Validasi formulir dan penanganan kesalahan
+
+## Instalasi
+
+Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi secara lokal:
+
+1. Kloning repositori:
+   ```bash
+   git clone https://github.com/antoniusekoputranto/laravel_12_app_crud_posts.git
+   cd laravel_12_app_crud_posts
+   ```
+
+2. Instal dependensi:
+    ```bash
+    composer install
+    npm install && npm run dev
+    ```
+
+3. Salin .env.example ke .env dan konfigurasikan database Anda:
+    ```bash
+    cp .env.example .env
+    ```
+
+4. Hasilkan kunci aplikasi:
+    ```bash
+    php artisan key:generate
+    ```
+
+5. Jalankan migrasi:
+    ```bash
+    php artisan migrate
+    ```
+
+6. Jalankan server pengembangan:
+    ```bash
+    php artisan serve
+    ```
+
+## Penggunaan
+
+- Akses aplikasi melalui http://localhost:8000
+- Gunakan antarmuka untuk membuat, mengedit, dan menghapus postingan blogs
+
+## Kontribusi
+
+Kontribusi sangat disambut! Silakan fork repositori ini dan kirimkan pull request untuk perbaikan atau peningkatan apa pun.
+
+## Lisensi
+
+Proyek ini bersifat open-source dan tersedia di bawah Lisensi MIT.
