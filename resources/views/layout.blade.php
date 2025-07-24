@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    @vite(['resources/js/app.js', 'resources/css/app.css'])
     <meta charset="UTF-8">
     <title>Laravel 12 App CRUD Posts</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
